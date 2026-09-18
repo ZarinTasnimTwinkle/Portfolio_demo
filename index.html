@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ?bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!--?Font Style link-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kaushan+Script&family=Libre+Baskerville:ital@1&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <!--?SVG icons link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!--?Font-Awesome icons link-->
+    <script
+      src="https://kit.fontawesome.com/14e533ff66.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ?MyStyle link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>MY Portfolio</title>
+  </head>
+  <body>
+    <!-- ?Navbar -->
+    <nav class="navbar sticky-top navbar-expand-md mynavbar">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#main_menu"
+        aria-expanded="true"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"><i class="far fa-clone"></i></span>
+      </button>
+      <a class="navbar-brand" href="#">twinkle</a>
+      <div class="collapse navbar-collapse mycontainer" id="main_menu">
+        <ul>
+          <li class="Home nav-item active"><a href="#Home">HOME</a></li>
+          <li class="About nav-item"><a href="#About">ABOUT</a></li>
+          <li class="nav-item"><a href="projects.html">PROJECTS</a></li>
+          <li class="Service nav-item"><a href="#Service">SERVICE</a></li>
+          <li class="nav-item"><a href="blogs.html">BLOGS</a></li>
+          <li class="Contact nav-item"><a href="#Contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ?Main Image -->
+    <section class="main_image" id="Home">
+      <div class="main_image_porda">
+        <div class="main_image_content">
+          <p class="display-6">I'm ZARIN TASNIM</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur <br />
+            adipisicing elit. Dolor quasi, iste ullam similique doloribus.
+          </p>
+          <button class="btn">MORE ABOUT ME</button>
+        </div>
+      </div>
+    </section>
+
+    <!--?About-Me Card-->
+    <section class="container-lg about_me" id="About">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-7">
+            <img
+              src="img/img1.jpg"
+              class="img-fluid rounded card_image"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="card-body">
+              <p class="card-title">About Me</p>
+              <h6 class="card-subtitle mb-2 mt-3 text-muted">
+                Card subtitle long long
+              </h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Quaerat, odit?
+              </p>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur numquam iure voluptas dolores harum atque possimus
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="#" class="btn">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--?About-Me Tabs-->
+    <div class="container-lg Navtab">
+      <!--Nav-Tabs-->
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            data-bs-toggle="tab"
+            aria-controls="skills"
+            aria-selected="true"
+            href="#skills"
+            >My Skills</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            data-bs-toggle="tab"
+            aria-controls="awards"
+            aria-selected="false"
+            href="#awards"
+            >Awards</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            data-bs-toggle="tab"
+            aria-controls="experience"
+            aria-selected="false"
+            href="#experience"
+            >Experiences</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            data-bs-toggle="tab"
+            aria-controls="edu"
+            aria-selected="false"
+            href="#edu"
+            >Education & Certifications</a
+          >
+        </li>
+      </ul>
+      <!--Tab-Content-->
+      <div class="tab-content">
+        <div class="tab-pane fade active show" id="skills">
+          <div class="row">
+            <div class="col">
+              <div class="progress mt-5" style="height: 20px">
+                <div
+                  class="
+                    progress-bar progress-bar-striped progress-bar-animated
+                    bg-success
+                  "
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 75%"
+                >
+                  HTML 75%
+                </div>
+              </div>
+              <div class="progress mt-4" style="height: 20px">
+                <div
+                  class="
+                    progress-bar progress-bar-striped progress-bar-animated
+                  "
+                  role="progressbar"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 25%"
+                >
+                  JavaScript 25%
+                </div>
+              </div>
+              <div class="progress mt-4" style="height: 20px">
+                <div
+                  class="
+                    progress-bar progress-bar-striped progress-bar-animated
+                    bg-danger
+                  "
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 85%"
+                >
+                  CSS 85%
+                </div>
+              </div>
+              <div class="progress mt-4" style="height: 20px">
+                <div
+                  class="
+                    progress-bar progress-bar-striped progress-bar-animated
+                    bg-warning
+                  "
+                  role="progressbar"
+                  aria-valuenow="55"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 55%"
+                >
+                  bootstrap 55%
+                </div>
+              </div>
+            </div>
+            <div class="col-auto"></div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="awards">
+          <div class="row">
+            <div class="col">
+              <div class="single-tab-content">
+                <ul>
+                  <li>
+                    <a href="service.html"
+                      >Awwwards.com <span>- Winner</span></a
+                    >
+                    2019 - 2020
+                  </li>
+                  <li>
+                    <a href="service.html"
+                      >CSS Design Awards <span>- Winner</span></a
+                    >
+                    2017 - 2018
+                  </li>
+                  <li>
+                    <a href="service.html"
+                      >Design nominees <span>- site of the day</span></a
+                    >
+                    2013- 2014
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-auto d-none d-md-block">
+              <img
+                src="img/award.gif"
+                style="width: 300px; height: 200px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="experience">
+          <div class="row">
+            <div class="col">
+              <div class="single-tab-content">
+                <ul>
+                  <li>
+                    <a href="/service"
+                      >Sr. Front-end Engineer<span> - Google</span></a
+                    >
+                    2018 - Current
+                  </li>
+                  <li>
+                    <a href="/service"
+                      >Front-end Engineer<span> - Microsoft</span></a
+                    >
+                    2017 - 2018
+                  </li>
+                  <li>
+                    <a href="/service"
+                      >Software Engineer<span> - Alibaba </span></a
+                    >
+                    2013- 2014
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-auto d-none d-md-block">
+              <img
+                src="img/experience.png"
+                style="width: 400px; height: 200px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="edu">
+          <div class="row">
+            <div class="col">
+              <div class="single-tab-content">
+                <ul>
+                  <li>
+                    <a href="/service"
+                      >BSc In CSE<span>
+                        - ABC University, Los Angeles, CA</span
+                      ></a
+                    >
+                    2010
+                  </li>
+                  <li>
+                    <a href="/service"
+                      >Diploma in Computer Science<span>
+                        - Gamma Technical Institute</span
+                      ></a
+                    >
+                    2009
+                  </li>
+                  <li>
+                    <a href="/service"
+                      >Graphic Designer<span>
+                        - ABC Institute, Los Angeles, CA</span
+                      ></a
+                    >
+                    2007
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-auto d-none d-md-block">
+              <img
+                src="img/edu.png"
+                style="width: 350px; height: 200px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--?Service Card-->
+    <section class="My_service" id="Service">
+      <div class="container-lg" style="padding-bottom: 7.5rem">
+        <p class="text-center card_heading mb-2">My Awesome Service</p>
+        <p class="text-center mb-0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum cum.
+          Lorem
+        </p>
+        <p class="text-center mb-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-cast"
+                >
+                  <path
+                    d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"
+                  ></path>
+                  <line x1="2" y1="20" x2="2.01" y2="20"></line>
+                </svg>
+              </div>
+              <div class="card-body px-0">
+                <h5 class="card-title mb-3">Business Stratagy</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-monitor"
+                >
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div class="card-body px-0">
+                <h5 class="card-title mb-3">Website Development</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-users"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div class="card-body px-0">
+                <h5 class="card-title mb-3">Marketing & Reporting</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-tablet"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"
+                  />
+                  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                </svg>
+              </div>
+              <div class="card-body px-0">
+                <h5 class="card-title mb-3">Mobile Development</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-camera"
+                >
+                  <path
+                    d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+                  ></path>
+                  <circle cx="12" cy="13" r="4"></circle>
+                </svg>
+              </div>
+              <div class="card-body px-0">
+                <h5 class="card-title mb-3">Video & Photography</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-layers"
+                >
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <div class="card-body px-0">
+                <h5 class="card-title mb-3">Teaching & Training</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--?Hire-Me Card-->
+    <section
+      class="container-fluid hire_me"
+      id="Contact"
+      style="margin-bottom: 8rem"
+    >
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-7">
+            <div class="card-body">
+              <p class="card-title">Hire Me</p>
+              <p class="card-subtitle mb-3 mt-1">
+                I am available for freelance work. connect with me via phone:
+                01234567890 or email: admin@example.com
+              </p>
+              <form>
+                <div class="mb-4">
+                  <input
+                    type="name"
+                    class="form-control"
+                    id="exampleInputName"
+                    aria-describedby="NameHelp"
+                    placeholder="Your Name*"
+                  />
+                </div>
+                <div class="mb-4">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Your Email*"
+                  />
+                </div>
+                <div class="mb-4">
+                  <input
+                    type="subject"
+                    class="form-control"
+                    id="exampleInputSubject"
+                    aria-describedby="subjectHelp"
+                    placeholder="Write a Subject"
+                  />
+                </div>
+                <div class="mb-2">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="5"
+                    placeholder="Your Massage"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="img/img5.jpg"
+              class="img-fluid rounded card-image"
+              alt="My Image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--?Footer-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid footer">
+        <a class="footer_brand" href="#">Twinkle</a>
+        <div class="footer_icon">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+        <span class="navbar-text"
+          >Copyright &copy; 2021. All Rights Reserved</span
+        >
+      </div>
+    </nav>
+
+    <!--?My JS-->
+    <script>
+      const sections = document.querySelectorAll("section");
+      const navli = document.querySelectorAll("nav, .mycontainer ul li");
+
+      window.addEventListener("scroll", () => {
+        let current = "";
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+
+          if (pageYOffset >= sectionTop - sectionHeight / 3) {
+            current = section.getAttribute("id");
+          }
+        });
+
+        navli.forEach((li) => {
+          li.classList.remove("active");
+          if (li.classList.contains(current)) {
+            li.classList.add("active");
+          }
+        });
+      });
+    </script>
+
+    <!-- ?bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
+<!-- <div class="clear"></div> -->
